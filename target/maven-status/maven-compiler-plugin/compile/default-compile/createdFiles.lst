@@ -1,0 +1,12 @@
+org\but\feec\footballdb\exceptions\ResourceNotFoundException.class
+org\but\feec\footballdb\api\PersonAuthView.class
+org\but\feec\footballdb\controllers\LoginController$1.class
+org\but\feec\footballdb\services\PersonService.class
+org\but\feec\footballdb\services\AuthService.class
+org\but\feec\footballdb\App.class
+org\but\feec\footballdb\data\PersonRepository.class
+org\but\feec\footballdb\Main.class
+org\but\feec\footballdb\controllers\LoginController.class
+org\but\feec\footballdb\exceptions\DataAccessException.class
+org\but\feec\footballdb\exceptions\ExceptionHandler.class
+org\but\feec\footballdb\config\DataSourceConfig.class
