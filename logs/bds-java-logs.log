@@ -1,22 +1,52 @@
-743  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-752  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1413 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-748  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1424 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-742  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-858  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1442 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1424 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-909  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1428 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-757  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-769  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1432 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-760  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1414 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1391 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-764  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-755  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1401 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1408 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
-1428 [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
+720  [JavaFX Application Thread] INFO  o.b.f.f.controllers.LoginController - LoginController initialized
+24870 [JavaFX Application Thread] ERROR o.b.f.f.controllers.LoginController - 
+file:/C:/Users/pmeln/Desktop/bds_3/target/footballdb-1.0.0.jar!/org/but/feec/footballdb/fxml/Persons.fxml:20
+
+javafx.fxml.LoadException: 
+file:/C:/Users/pmeln/Desktop/bds_3/target/footballdb-1.0.0.jar!/org/but/feec/footballdb/fxml/Persons.fxml:20
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:932)
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:982)
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:229)
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:754)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.footballdb.controllers.LoginController.showPersonsView(LoginController.java:125)
+	at org.but.feec.footballdb.controllers.LoginController.handleSignIn(LoginController.java:112)
+	at org.but.feec.footballdb.controllers.LoginController.lambda$initialize$1(LoginController.java:69)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$KeyHandler.process(Scene.java:4064)
+	at javafx.scene.Scene.processKeyEvent(Scene.java:2123)
+	at javafx.scene.Scene$ScenePeerListener.keyEvent(Scene.java:2591)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:217)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$KeyEventNotification.run(GlassViewEventHandler.java:149)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleKeyEvent$1(GlassViewEventHandler.java:248)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleKeyEvent(GlassViewEventHandler.java:247)
+	at com.sun.glass.ui.View.handleKeyEvent(View.java:547)
+	at com.sun.glass.ui.View.notifyKey(View.java:971)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.ClassNotFoundException: org.but.feec.javafx.controllers.PersonsController
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:930)
+	... 37 common frames omitted
